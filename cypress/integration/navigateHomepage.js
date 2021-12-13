@@ -2,10 +2,16 @@
 
 
 
-describe("navigate to Unicat Homepage", function ()
+describe("navigate to Unicat Homepage", () =>
 {
-	cy.visit('https://unicat.msf.org/')	
+	it('Route Check', function()
+{
+	
+	cy.visit('https://unicat.msf.org/')
 
+
+
+})
 
 it("Should check Subcatalogue", function ()
 	{
@@ -17,6 +23,10 @@ it("Should check Subcatalogue", function ()
 	});
 
 
+	
 
 
-})
+
+
+});
+
